@@ -1,3 +1,3 @@
 #!/bin/bash
-chmod +x /app/hblink3/start.sh
-/bin/bash /app/hblink3/start.sh
+
+python3 /app/hblink3/bridge.py
