@@ -13,6 +13,7 @@ RUN pip install --upgrade pip
 RUN mkdir /app
 RUN cd /app
 COPY ./app/ .
+COPY ./app/hblink3 ./hblink3
 RUN chmod +x ./app.sh
 
 #Installing pip dependencies
