@@ -11,9 +11,8 @@ RUN pip install --upgrade pip
 
 #Creating "app" folder and moving HBlink3 plus whatever else I later add to it
 RUN mkdir /app
+COPY ./app /app
 RUN cd /app
-COPY ./app/ .
-COPY ./app/hblink3 ./hblink3
 RUN chmod +x ./app.sh
 
 #Installing pip dependencies
