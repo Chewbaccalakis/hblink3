@@ -89,11 +89,11 @@ BRIDGES = {
 	],
     'TAC1': [
 	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 8951, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
-            {'SYSTEM': 'REPEATER-2',     'TS': 2, 'TGID': 8951, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'CLIENT-1',     'TS': 2, 'TGID': 8951, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
 	],
     'TAC2': [
 	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 8952, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
-            {'SYSTEM': 'REPEATER-2',     'TS': 2, 'TGID': 8952, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'CLIENT-1',     'TS': 2, 'TGID': 8952, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
 	]
 }
 
