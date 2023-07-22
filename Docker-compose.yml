@@ -1,0 +1,8 @@
+version: '3'
+services:
+  hblink:
+    container_name: hblink
+    build: .
+
+    volumes:
+      - ./testdata/hblink3:/app/hblink3
