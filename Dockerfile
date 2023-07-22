@@ -13,6 +13,8 @@ RUN pip install --upgrade pip
 RUN mkdir /app
 RUN cd /app
 COPY ./hblink3 ./hblink3
+COPY ./start.sh ./start.sh
+RUN chmod +x ./start.sh
 
 #Installing pip dependencies
 RUN pip3 install -r ./hblink3/requirements.txt
@@ -21,4 +23,4 @@ RUN pip3 install -r ./hblink3/requirements.txt
 EXPOSE 62031/udp
 
 #Starting "hblink.py". Will be starting something else once i write a better solution
-CMD python3 ./hblink3/hblink.py
+CMD ./start.sh
