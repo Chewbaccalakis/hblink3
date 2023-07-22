@@ -46,6 +46,54 @@ BRIDGES = {
     'TAC312': [
 	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 312, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
             {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 312, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'WASHINGTON': [
+            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 3153,    'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'ON',  'ON': [2,], 'OFF': [9,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',    'TS': 2, 'TGID': 3153, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'ON',  'ON': [2,], 'OFF': [9,10], 'RESET': []},
+        ],
+    'OREGON': [
+            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 3141,   'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [3,], 'OFF': [8,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',    'TS': 2, 'TGID': 3141,   'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [3,], 'OFF': [8,10], 'RESET': []},
+        ],
+    'OREGONCENTRAL': [
+            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 31411, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [4,], 'OFF': [7,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',    'TS': 2, 'TGID': 31411, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [4,], 'OFF': [7,10], 'RESET': []},
+        ],
+    'MONTANA': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 3130, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 3130, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'MPRG1': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 31301, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 31301, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'OPENGD77': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 98977, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 98977, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'RMHAMNORTH': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 310813, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 310813, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'RMHAMCENTRAL': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 3108, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 3108, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'RMHAMSOUTH': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 310816, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 310816, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'PNWR': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 31771, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 31771, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'TAC1': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 8951, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-2',     'TS': 2, 'TGID': 8951, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	],
+    'TAC2': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 8952, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-2',     'TS': 2, 'TGID': 8952, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
 	]
 }
 
