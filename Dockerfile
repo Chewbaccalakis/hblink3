@@ -17,5 +17,8 @@ COPY ./hblink3 ./hblink3
 #Installing pip dependencies
 RUN pip3 install -r ./hblink3/requirements.txt
 
+#Expose Ports
+EXPOSE 62031/udp
+
 #Starting "hblink.py". Will be starting something else once i write a better solution
 CMD python3 ./hblink3/hblink.py

@@ -4,5 +4,8 @@ services:
     container_name: hblink
     build: .
 
+    ports:
+      - 62031:62031
+
     volumes:
       - ./testdata/hblink3:/app/hblink3
