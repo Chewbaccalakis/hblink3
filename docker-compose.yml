@@ -3,9 +3,10 @@ services:
   hblink:
     container_name: hblink
     build: .
-
+    
+    network_mode: host
     ports:
       - 62031:62031
-
+      - 4321:4321
     volumes:
       - ./testdata/hblink3:/app/hblink3

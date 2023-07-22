@@ -31,15 +31,22 @@ configuration file.
 '''
 
 BRIDGES = {
-    '310': [
-            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 310,    'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'ON',  'ON': [2,], 'OFF': [9,10], 'RESET': []},
+    'WORLDWIDE': [
+            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 91,    'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'ON',  'ON': [2,], 'OFF': [9,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',    'TS': 2, 'TGID': 91, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'ON',  'ON': [2,], 'OFF': [9,10], 'RESET': []},
         ],
-    '310': [
-            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 311,   'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [3,], 'OFF': [8,10], 'RESET': []},
+    'TAC310': [
+            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 310,   'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [3,], 'OFF': [8,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',    'TS': 2, 'TGID': 310,   'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [3,], 'OFF': [8,10], 'RESET': []},
         ],
-    '310': [
-            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 312, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [4,], 'OFF': [7,10], 'RESET': []},
-        ]
+    'TAC311': [
+            {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 311, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [4,], 'OFF': [7,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',    'TS': 2, 'TGID': 311, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [4,], 'OFF': [7,10], 'RESET': []},
+        ],
+    'TAC312': [
+	    {'SYSTEM': 'MASTER-1',    'TS': 2, 'TGID': 312, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+            {'SYSTEM': 'REPEATER-1',     'TS': 2, 'TGID': 312, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE', 'ON': [5,], 'OFF': [6,10], 'RESET': []},
+	]
 }
 
 if __name__ == '__main__':
