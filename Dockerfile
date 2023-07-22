@@ -18,4 +18,4 @@ COPY ./hblink3 ./hblink3
 RUN pip3 install -r ./hblink3/requirements.txt
 
 #Starting "hblink.py". Will be starting something else once i write a better solution
-RUN python3 ./hblink3/hblink.py
+CMD python3 ./hblink3/hblink.py
