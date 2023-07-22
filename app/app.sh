@@ -1,3 +1,3 @@
 #!/bin/bash
-chmod +x ./hblink3/start.sh
-./hblink/start.sh
+chmod +x /app/hblink3/start.sh
+/app/hblink/start.sh
