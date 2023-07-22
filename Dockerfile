@@ -16,10 +16,11 @@ COPY ./app/app.sh app.sh
 RUN chmod +x ./app.sh
 
 #Installing pip dependencies
-RUN pip3 install -r ./hblink3/requirements.txt
+COPY ./app/requirements.txt ./requirements.txt
+RUN pip3 install -r ./requirements.txt
 
 #Expose Ports
 EXPOSE 62031/udp
 
 #Starting "hblink.py". Will be starting something else once i write a better solution
-CMD ./start.sh
+CMD ./app.sh
