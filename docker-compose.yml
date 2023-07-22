@@ -9,4 +9,4 @@ services:
       - 62031:62031
       - 4321:4321
     volumes:
-      - ./app:/app
+      - ./hblink3:/app/hblink3
