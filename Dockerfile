@@ -12,11 +12,10 @@ RUN pip install --upgrade pip
 #Creating "app" folder and moving HBlink3 plus whatever else I later add to it
 RUN mkdir /app
 RUN cd /app
-COPY ./app/app.sh app.sh
+COPY ./app/ .
 RUN chmod +x ./app.sh
 
 #Installing pip dependencies
-COPY ./app/requirements.txt ./requirements.txt
 RUN pip3 install -r ./requirements.txt
 
 #Expose Ports
